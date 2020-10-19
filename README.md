@@ -10,6 +10,7 @@ He gave basically a motivational speech this time, talking about how he does to 
 
 ### Talk about performance by DAZN engineer, Rich McCol
 He showed how easy it is to track performance of your APP, and how we should be doing it. The technique he showed involves using the window.performance API and use the performance tab on Chrome and how to interpret that. On the specific example he gave, their issue was a super long list of items that were rendered up front even though in the page it would fit something like 3~4 items, so all the others were just wasted processing because they were unnecessary at that point, so he talked about virtualisation and how that saves memory and processing.
+Packages: Masonic - Masonry ( Virtualisation )
 
 ### Monica Wojciechowska about how SVG paths work
 Amazing talk where she showed some pkgs that help us getting there by making it easier to read each path and understand what the SVG was actually built. She explained that the more we understand how SVG Paths work the better we get to animate them. It is super interesting to see everything and try to follow, it is hard, but at least the way the explained brought some light on some topics that I was not super familiar with. Great talk.
