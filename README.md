@@ -22,6 +22,8 @@ He talked about letting the main thread breathe. What he argues is that as JS is
 ### React + Typescript by Ben Ilegbodu
 A talk about Typescript + React and how it solves our day to day issues like passing unknown props to component, overwriting base props with custom props because we are explicitly declaring them. Passing wrong type values to props or even wrong signature methods to method props, as PropTypes does not catch those. It is great to see how Typescript would solve a lot of issues that happen in several edges of our APPs.
 
+https://github.com/typescript-cheatsheets/react
+
 ### Testing talk by Iris Schaffer
 In here, she talked about testing and how we should test, she mentioned Integration, E2E and unit tests and explained why we should not test internal logic specific details but the overall input and output system, rather than checking if a specific method was called or anything alike, we should provide an input ( actions ) and check the result with the expected ( UI updated ). She showed how to use Cypress for Integration Tests, there is a super great cy.server API so we can mock API calls, and of course, we can use cypress for E2E tests as well using a real server and everything.
 
